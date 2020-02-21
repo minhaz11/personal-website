@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.clearfix::before{
+    content: "";
+    display: table;
+    clear: both;
+    height: 0;
+}
+
+section{
+    height: 600px;
+    padding-bottom: 150px;
+   
+}
+
+.purple-color{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ec4c7a;
+    
+}
+h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+p{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.hireme-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #ec4e8d, #ffaf2b);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+/* header-section background image */
+.header-part{
+    background:linear-gradient(rgba(121, 120, 120, 0.5) , rgba(206, 204, 204, 0.5)), url("images/bg-1.jpg") ;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.half-width{
+    
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 80px;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+  
+}
+
+/* biography-section  */
+.biography-part{
+    background:linear-gradient(rgba(206, 204, 204, 0.5),rgba(121, 120, 120, 0.5) ), url("images/bg-2.jpg") ;
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: cover;
+    
+}
+.half-bio{
+    margin-top: 170px;
+    padding: 0;
+}
+.cv-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #4f70e0, #22c4df);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+/*My latest work section*/
+.latest-work{
+   
+    background:linear-gradient(rgba(121, 120, 120, 0.5),rgba(206, 204, 204, 0.5) ), url("images/bg-1.jpg") ;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+    
+}
+.work-image img{
+    width: 26%;
+    margin-left: 5%;
+    border: #2f2f30 solid 1px;
+    border-radius: 10px;
+    float: left;
+    box-shadow: 10px 10px 40px grey;
+    transition: 0.3s;
+}
+.work-image img:hover{
+    transform:scale(1.3, 2);  
+}
+.latest-work-heading{
+    text-align: center;
+    padding: 100px;
+
+}
+/*client part start */
+.client-part{
+    background:linear-gradient(rgba(206, 204, 204, 0.5),rgba(121, 120, 120, 0.5)),url("images/bg-2.jpg") ;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    text-align: center;
+}
+
+.client-description{
+    padding-top: 50px;
+}
+.client-description h1{
+font-size: 30px;
+padding-bottom: 50px;
+}
+.client-description img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid #22c4df;
+ 
+}
+.client-description h5{
+    padding:0;
+    margin: 0; 
+}
+.client-description h6{
+    padding:0;
+    margin: 0;
+    font-weight: 100;
+}
+.client-description p{
+    padding-top: 20px;
+    text-align: center;
+    font-style: italic;
+}
+.leave-msg{
+  background:linear-gradient(45deg,#ec4e89, #ed4b71);
+  width: 600px;
+  border: none;
+  padding: 20px;
+  border-radius: 15px;
+  margin-left: 480px;
+  margin-top: 50px;
+  color: white;
+}
+.leave-msg p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+/*client part end*/
+
+/*cpntact-us start*/
+.contact-us{
+    text-align: center;
+    background:linear-gradient(rgba(121, 120, 120, 0.5),rgba(206, 204, 204, 0.5)),url("images/bg-1.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-us h1{
+    color: black;
+    padding-top: 30px;
+}
+.contact-us p{
+     color: black;
+     text-align: center;
+}
+
+.contact-us form{
+    margin-top: 40px;
+    width: 70%;
+    margin-left: 15%;
+    
+}
+.contact-us input
+{
+    background: #cacfdd;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #8c98bb; 
+    border-radius: .4rem;
+    font-size: 1.8rem;
+    
+}
+
+.contact-us textarea{
+    margin-top: 1rem;
+    width: 70%;
+    margin-left: 2%;
+    margin-bottom: 40px;
+    background:  #cacfdd;
+    padding: 15px;
+    border-radius: .4rem;
+    border: 1px solid #8c98bb; 
+    font-size: 18px;
+}
+.send-msg{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #4f70e0, #22c4df);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+/*contact-us end*/
+
+/*footer*/
+footer{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 100;
+    padding-top: 20px;
+    
+   
+}
+
+
